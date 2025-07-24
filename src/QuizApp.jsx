@@ -604,7 +604,7 @@ export default function QuizApp() {
             cursor: selected ? 'not-allowed' : 'pointer'
           }
         >
-          {key}. {value}
+          {`${key}. ${value}`}
         </button>
       ))}
       {selected && (
